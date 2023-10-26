@@ -1,0 +1,844 @@
+:root {
+    --dark: #1E1E1E;
+    --white: #ffffff;
+    --green: #17BB00;
+    --lightgray: #D7D7D7;
+    --border: 1px solid #2E5465;
+    --red: #D11101; 
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    font-size: 62.5%;
+    background-color: var(--dark);
+    min-width: 320px;
+}
+
+header {
+    display: flex;
+    padding: 2rem;
+    line-height: normal;
+    gap: 4px;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #A6080E 0%, #D11101 100%);
+}
+/*SECTION MERIDIAN APP*/
+#meridianApp {
+    background-image:url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    border-bottom: 2px solid #2E5465;
+}
+.meridianApp-wrapper {
+    width: 85%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20rem 0;
+}
+.meridianApp-text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 83px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 65%;
+    color: var(--white);
+    text-transform: uppercase;
+    margin-bottom: 2.4rem;
+}
+.meridianApp-text h4 {
+    font-family: Roboto;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    margin-bottom: 2.4rem;
+    color: var(--white);
+    text-transform: uppercase;
+}
+.meridianApp-img {
+    display: flex;
+    gap: 5rem;
+
+}
+.box {
+    background: #1C2F3899;
+    background: #1C2F3899;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1rem;
+    border-radius: 0.4rem;
+}
+.box p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.6rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--white);
+    margin-top: 1rem;
+
+
+}
+.box-img {
+    padding:0 4rem;
+    height: 10rem;
+}
+.btn-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #FACC01;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+}
+.btn-icon {
+    height: 2.4rem;
+}
+.btn-app a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2D2D2D;
+}
+.btn a:first-child {
+    padding: 1rem;
+    background-color: var(--green);
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0.6rem;
+    margin-right: 1rem;
+}
+.btn a:last-child {
+    padding: 1rem;
+    background-color: #284755;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    line-height: 1.3rem;
+    font-weight: 700;
+    border-radius: 0.6rem;
+}
+.btnLng {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+/*SECTION MERIDIAN APP*/
+/*SECTION POKER APP*/
+#pokerApp {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 2px solid #2E5465;
+
+
+    background-image:
+    linear-gradient(179.04deg, rgba(22, 35, 42, 0) 20.27%, rgba(25, 40, 48, 0.431196) 55.21%, #1C2F38 95.92%),url(./img/background.jpg);
+    
+}
+.pokerApp-wrapper {
+    width: 85%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20rem 0;
+}
+.pokerApp-text h2 {
+    font-family: Roboto;
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 83px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 43%;
+    color: var(--white);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.pokerApp-text h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    margin-bottom: 2.4rem;
+    color: var(--white);
+    text-transform: uppercase;
+}
+.pokerApp-img {
+    display: flex;
+    gap: 5rem;
+
+}
+/*SECTION POKER APP*/
+/*SECTION INSTRUCTION*/
+#instructions {
+  background: #1C2F38;
+  border-bottom: 2px solid #2E5465;
+   
+}
+.instructions-wrapper {
+    width: 85%;
+    margin: 0 auto;
+    padding: 10rem 0;
+}
+#instructions h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--white);
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+} 
+#instructions ul li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #CACACA;
+    margin-left: 3rem;
+}
+#instructions h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--white);
+}
+#instructions p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #CACACA;
+}
+/*SECTION INSTRUCTION*/
+.btn a:first-child {
+    padding: 1rem;
+    background-color: var(--green);
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0.6rem;
+    margin-right: 1rem;
+}
+.btn a:last-child {
+    padding: 1rem;
+    background-color: #284755;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    line-height: 1.3rem;
+    font-weight: 700;
+    border-radius: 0.6rem;
+}
+.btnLng {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+/*FOOTER*/
+.footer-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0;
+ 
+}
+.copyright p {
+    font-size: 1.2rem;
+    color: #f2f2f2;
+    text-transform: uppercase;
+}
+footer {
+    background-color: #10181C;
+}
+.payments {
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+}
+
+.payments::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15%;
+    height: 100%;
+    background: linear-gradient(
+      to left,
+      rgba(15, 25, 27, 0.9),
+      transparent
+    );
+    z-index: 33;
+
+}
+.sponsorships::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15%;
+    height: 100%;
+    background: linear-gradient(
+      to left,
+      rgba(15, 25, 27, 0.9),
+      transparent
+    );
+    z-index: 33;
+
+}
+.payments-text {
+    width: 20%;
+    color: #fff;
+    text-transform: uppercase;
+}
+.payments-icons {
+  
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+    width: 80%;
+    overflow: hidden;
+        }
+.payments h3{
+    font-size: 2rem;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+.payments h4 {
+    font-size: 1.8rem;
+    line-height: 1.9rem;
+    font-weight: normal;
+    
+}
+.payments-icons img {
+    opacity: 0.8;
+    max-width: 100%;
+}
+.sponsorships {
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+}
+.sponsorships-text {
+    width: 20%;
+    color: #fff;
+    text-transform: uppercase;
+}
+.sponsorships-text h3 {
+    font-size: 2rem;
+}
+.sponsorships-text h4{
+    font-size: 1.8rem;
+    line-height: 1.9rem;
+    
+    font-weight: normal;
+}
+.sponsorships-icons {
+    width: 80%;
+    overflow: hidden;
+    text-align: center;
+}
+.sponsorships-icons img {
+    max-width: 100%;
+}
+.links {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #182f37;
+    padding: 40px 0;
+}
+.links ul {
+    width: 95%;
+    margin: 0 auto;
+}
+.links ul li {
+    display: inline-block;
+    margin-right: 30px;
+    line-height: 30px;
+   
+}
+.links ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Roboto Condensed",Helvetica,Arial,sans-serif;
+    font-size: 1.6rem;
+    
+}
+.links li:last-child {
+    margin-right: unset;
+}
+.copyright {
+    text-align: center;
+    color: #fff;
+    padding: 40px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1259px) {
+    .meridianApp-text h4 {
+        font-size: 2.5rem;
+        line-height: 39px;
+        margin-bottom: 2rem;
+    }
+    .meridianApp-text h2 {
+        font-size: 5rem;
+        line-height: 60px;
+        width: 82%;
+        margin-bottom: 2rem;
+    }
+    .pokerApp-text h4 {
+        font-size: 2.5rem;
+        line-height: 39px;
+        margin-bottom: 2rem;
+    }
+    .pokerApp-text h2 {
+        font-size: 5rem;
+        line-height: 60px;
+        width: 65%;
+        margin-bottom: 2rem;
+    }
+    .meridianApp-wrapper {
+        padding: 15rem 0;
+    }
+    .pokerApp-wrapper {
+        padding: 15rem 0;
+    }
+    .footer-wrapper {
+        width: 90% !important;
+    }    
+}
+@media screen and (max-width: 768px) {
+    .meridianApp-img-box1, .meridianApp-img-box2 {
+        width: 100%;
+    }
+    .copyright {
+        padding: 20px 0;
+    }
+    .links {
+        display: none;
+    }
+    .meridianApp-wrapper {
+        padding: 6rem 0;
+    }
+    #meridianApp {
+        background-image: linear-gradient(179.61deg, #10181C 0.65%, #1C2F38 99.98%);
+    }
+    .meridianApp-wrapper {
+        width: 95%;
+    }
+    .meridianApp-text h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    }
+    .meridianApp-text h4 {
+    
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+    text-transform: uppercase;        
+    }
+        
+    .meridianApp-img {    
+    flex-direction: column;
+    gap: 2rem;
+    }
+    .box {
+        background-color: unset;
+    }
+    .box-img {
+        display: none;
+    }
+
+    .btn-app{
+        padding: 1.3rem;
+    }
+    .box p {
+        font-size: 1.8rem;
+    }
+    .pokerApp-wrapper {
+        padding: 6rem 0;
+    }
+    #pokerApp {
+        background-image: linear-gradient(179.61deg, #10181C 0.65%, #1C2F38 99.98%);
+    }
+    .pokerApp-wrapper {
+        width: 95%;
+    }
+    .pokerApp-text h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    width: 60%;
+    }
+    .pokerApp-text h4 {
+    
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+    text-transform: uppercase;        
+    }
+        
+    .pokerApp-img {    
+    flex-direction: column;
+    gap: 2rem;
+    }
+
+    .instructions-wrapper {
+        width: 95%;
+        margin: 0 auto;
+    padding: 4rem 1rem;
+    }
+    #instructions h3 {
+        font-size: 1.8rem;
+        line-height: 28px;
+    }
+    #instructions ul li {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    #instructions h3 {
+        text-align: center;
+    }
+    #instructions h4 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    #instructions p {
+        font-size: 14px;
+    }
+    .footer-wrapper {
+            width: 90%;
+    }
+    .payments {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .payments-text {
+        width: 100%;
+    }
+    .payments-icons {
+        width: 100%;
+        gap: 0.5rem;
+        grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+    }
+    .sponsorships {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .sponsorships-text {
+        width: 100%;
+        color: #fff;
+    }
+    .sponsorships-icons {
+        width: 100%;
+    }
+    .sponsorships-icons img{
+        max-width: 100%;
+    }
+    .copyright {
+            width: 90%;
+        }
+    }
+    
+    @media screen and (max-width: 440px) {
+        .meridianApp-text h2 {
+            font-size: 23px;
+            line-height: 30px;
+        }
+        .pokerApp-text h2 {
+            font-size: 23px;
+            line-height: 30px;
+        }
+        .logo img{
+            display: none;
+        }
+        .logo {
+            background-image: url(./img/mb.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 4rem;
+            width: 4rem;
+        }
+        .btnLng {
+            max-width: 100%;
+            justify-content: end;
+        }
+        .links {
+            padding: 20px 0;
+        }
+        .links ul li a {
+            font-size: 1.4rem;
+        }
+     }
+    @media screen and (max-width: 375px) { 
+        .payments-icons {
+        grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+    
+        }
+        .copyright {
+            width: 90%;
+        }
+        .footer-wrapper {
+            padding: 20px 0;
+        }
+        .btn {
+            display: none;
+        }
+    }
+ /* Stil za prikaz padajućeg menija s zastavicama */
+  .lang-switcher {
+    position: relative;
+  }
+
+  .lang-dropdown {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    z-index: 1;
+    background-color: #284755;
+    /*border: 1px solid #ccc;*/
+    border-radius: 5px;
+    padding: 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lang-dropdown li {
+    display: block;
+  }
+  
+  #flag-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .lang-dropdown li a {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .lang-dropdown li a img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .lang-dropdown li a:hover {
+    background-color: #375a6a;
+  }
+  
+  /* Stil za odabrani jezik */
+  .selected-lang {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.payments {
+    display: flex;
+    padding: 20px 0;
+}
+.payments-text {
+    width: 20%;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+}
+.payments-icons {
+    width: 80%;
+    overflow: hidden;
+}
+
+.sponsorships {
+    display: flex;
+    padding: 20px 0;
+}
+.sponsorships-text {
+    width: 20%;
+    color: #fff;
+    font-size: 16px;
+}
+.sponsorships-icons {
+    width: 80%;
+    overflow: hidden;
+}
+.links {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #182f37;
+    padding: 40px 0;
+    
+}
+.links ul {
+    width: 95%;
+    margin: 0 auto;
+}
+.links ul li {
+    display: inline-block;
+    margin-right: 30px;
+    line-height: 24px;
+    font-size: 14px;
+   
+}
+.links ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    
+    
+}
+.links li:last-child {
+    margin-right: unset;
+}
+.copyright {
+    text-align: center;
+    color: #fff;
+    padding: 40px 0;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: left;
+    font-size: 18px;
+    background: transparent;
+    height: 55% !important;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex !important;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+      align-self: center !important;
+   
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 95%;
+    height: 5rem;
+    object-fit: contain;
+    opacity: 0.7;
+    
+  }
+  .block-title img {
+    width: 10% !important;
+  }
+
+  @media screen and (max-width:768px) {
+    .footer-wrapper {
+        width: 90%;
+    }
+    .payments {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .payments-text {
+        width: 100%;
+    }
+    .payments-icons {
+        width: 100%;
+    }
+    
+    .swiper-wrapper {
+    align-items: center;
+    }
+    .sponsorships {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sponsorships-text {
+        width: 100%;
+    }
+    .sponsorships-icons {
+        width: 100%;
+    }
+    .block.swiper-slide {
+        width: 97% !important;
+        margin: 10px;
+    }
+    .swiper-container {
+        width: 100%;
+    }
+      .swiper-slide img {
+    width: 60%;
+      }
+    #rules-text .show-more {
+        width: 50%;
+    }
+    .links ul li {
+        font-size: 12px;
+        line-height:19px;
+    }
+    .links{
+        padding: 20px 0;
+    }
+  }
