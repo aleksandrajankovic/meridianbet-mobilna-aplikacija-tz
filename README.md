@@ -1,1 +1,1 @@
-# meridianbet-mobilna-aplikacija-ba
+# meridianbet-mobilna-aplikacija-tz
