@@ -7,10 +7,12 @@ document.addEventListener("DOMContentLoaded", function () {
   // Funkcija za preusmjeravanje korisnika na stranicu odabranog jezika
   function redirectToLanguage(selectedLang) {
     // Dodajte više "else if" blokova za druge jezike i odgovarajuće URL-ove
+    let pathArray = document.URL.split("/");
+    let secondLevelLocation = pathArray[5];
     if (selectedLang === "en") {
-      window.location.href = "./";
+      window.location.href = "./" +secondLevelLocation;
     } else if (selectedLang === "sw") {
-      window.location.href = "../";
+      window.location.href = "../" + secondLevelLocation;
     }
   }
 
